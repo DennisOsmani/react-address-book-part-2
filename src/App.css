@@ -1,0 +1,48 @@
+* {
+    background-color: bisque;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.viewContact {
+    justify-content: center;
+    align-items: center;
+    padding-left: 10rem;
+}
+
+.viewContact .deleteButton {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.viewLink {
+    margin-left: 10px;
+}
+
+.menu {
+    width: 30%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.part2 {
+    width: 70%;
+    float: right;
+}
+
+.menu h2 {
+    color:green;
+}
+
+.createContactForm input {
+    background-color: white;
+    display: flex;
+}
+
+.createContactForm .form_submit {
+    margin-top: 30px;
+}
