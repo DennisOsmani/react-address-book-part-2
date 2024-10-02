@@ -23,19 +23,19 @@
 }
 
 .menu {
-    width: 30%;
-    float: left;
     display: flex;
     flex-direction: column;
-}
-
-.part2 {
-    width: 70%;
-    float: right;
+    justify-content: center;
+    margin-top: 12rem;
 }
 
 .menu h2 {
-    color:green;
+    font-size: 30px;
+    color: brown;
+}
+
+.menu .topLink {
+    margin-bottom: 20px;
 }
 
 .createContactForm input {
